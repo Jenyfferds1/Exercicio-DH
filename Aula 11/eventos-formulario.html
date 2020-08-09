@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel='stylesheet' href="css/style.css">
+    <title>Document</title>
+    <script src="jquery-2.2.1.js"></script>
+    <script type="text/javascript">
+$(document).ready(function(){
+
+$("#div1").blur(function(){
+    alert("Elemento perdeu o foco");
+});
+$("#div1").change(function(){
+    alert("Elemento foi trocado");
+});
+});    
+
+
+
+
+</script>
+    
+</head>
+<body>
+    
+
+
+
+
+
+
+
+
+
+    <div id="campo1" type="text"></div>
+<!-- 
+    focus
+    blur
+    change
+	-->
+
+    <select class="campo2">
+        <option value="1">Primeira Opção</option>
+        <option value="2">Primeira Opção</option>
+    </select>
+</body>
+</html>
