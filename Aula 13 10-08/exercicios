@@ -1,0 +1,48 @@
+1.Algoritmos são, de acordo com a definição:
+C 
+
+
+
+2. Defina linguagem de alto nível e linguagem de baixo nível:
+
+Baixo Nivel:É uma linguagem cuja sintaxe - entenda “sintaxe” como o padrão de formação das frases de um idioma - está mais próxima da nossa linguagem que da do computador. Em outras palavras, é mais fácil entender os comandos, já que eles utilizam palavras como “print” ou “delete”. 
+
+Alto Nivel: As linguagens de baixo nível são o contrário, ou seja, estão mais próximas da linguagem utilizada pelo computador e contam com comandos menos intuitivos para o nosso padrão de idioma. Elas estão relacionadas com a arquitetura da máquina e indicam comandos a serem realizado pelos processadores, o que pede um conhecimento maior desses temas. 
+
+3.Caso você precisasse guardar os valores da divisão de dois números inteiros qual o tipo de variável você escolheria? Por quê?
+
+int, o int guarda qualquer numero inteiro.
+
+4.Crie um programa que receba um nome e imprima uma saudação.
+
+package exercicio;
+
+public class entrega {
+	public static void main(String[] args) {	
+		
+		String nome = "Bem vindo";
+		
+		System.out.println(nome);
+}
+}
+
+
+
+5.Crie um programa que receba um input do teclado com uma idade e retorne se é maior ou menor de idade:
+
+
+
+
+
+7.Crie um programa que verifique se a pessoa tem todos os requisitos para dirigir:
+
+	int idade = 16;
+		String nome = "Jenyffer";
+		
+		//>, <, >=,<=, ==, diferente!=
+		//e &&, ou ||, nao !
+		if((idade >=16) && (idade <18)) {
+			System.out.println(nome+" não pode dirigir !");
+		}else {
+			System.out.println(nome+" pode dirigir !");
+		}
